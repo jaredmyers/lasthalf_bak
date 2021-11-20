@@ -10,4 +10,4 @@ Scanning destination directories allows the listener to be removed from the key 
 
 Currently making some assumptions about the database schema and yaml format that will be inside package.tar.gz. Everything can be adapted according to how things go and whats needed.
 
-![sampletable](img/sample_table.png)
+![sampletable](img/table_sample.png)
