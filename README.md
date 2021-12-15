@@ -47,6 +47,22 @@ to be continued..
 
 ## Server Setup Directions
 
+### OS
+fresh ubuntu 20.04 LTS
+```
+sudo apt update
+sudo apt upgrade
+```
+
+### Dependencies
+
+* sudo apt install `git`
+* sudo apt install `mysql-server`
+* sudo apt install `openssh-server`
+* sudo apt install `python3-pip`
+* pip3 install `mysql-connector-python`
+
+
 1. pull branch from github
 
 1. run setup.sh for packtool
@@ -75,8 +91,12 @@ sudo systemctl start listener.service
 ----
 
 ### MySQL Database
+
+in MySQL:
 ```
+create database deployment;
 create user 'deploy'@'localhost'
+grant select, update, delete, insert on deployment.* to deploy@localhost;
 ```
 
 
