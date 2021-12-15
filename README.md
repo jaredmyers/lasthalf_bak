@@ -1,7 +1,5 @@
 # Deployment Server
 
-----
-
 ## Package Tool
 
 ### Instructions:
@@ -39,7 +37,6 @@ Package name must conform to pkg naming convention 'pkgname-2.3'. The make comma
 
 to be continued..
 
-----
 
 ## Server Setup Directions
 
@@ -47,22 +44,23 @@ to be continued..
 
 1. run setup.sh for packtool
 > ./setup.sh
+
 Where ever you place the packtool folder will be where it's path is when installed. So pick a spot a keep it there.
 
-1. cp packages dir to ~
+1. copy packages dir structure to ~, this is where the packages will be stored
 > cp -r packages ~
 
 check hosts.yaml to ensure accurate host information
 
-
 1. Copy listener.service to systemd
 Change user and script path for listener as necessary
 
-> sudo cp listener.service /etc/systemd/system/
-> sudo systemctl daemon-reload
-> sudo systemctl enable listener.service
-> sudo systemctl start listener.service
-
+```
+sudo cp listener.service /etc/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl enable listener.service
+sudo systemctl start listener.service
+```
 ----
 
 ### MySQL Database
