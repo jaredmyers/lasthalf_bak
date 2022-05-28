@@ -1,8 +1,13 @@
 # Deployment Server
 
-## Package Tool
+This project is a simple package manager / pipeline designed to keep track of package changes across Development, QA and Prod networks. 
 
-### Instructions:
+Design writeup on this project [can be found here]()
+
+
+## Instructions
+
+### Package Tool
 
 For Dev usage:
 
@@ -45,16 +50,16 @@ pack make samplepak-1.0 file1.py file2.html file3.css
 Package name must conform to pkg naming convention 'pkgname-2.3'. The make command makes the package and sends it to the deployment server.
 
 
-## Server Setup Directions
+### Server Setup Directions
 
-### OS
+#### OS
 fresh ubuntu 20.04 LTS
 ```
 sudo apt update
 sudo apt upgrade
 ```
 
-### Dependencies
+#### Dependencies
 
 * sudo apt install `git`
 * sudo apt install `mysql-server`
@@ -91,7 +96,7 @@ sudo systemctl start listener.service
 ```
 ----
 
-### MySQL Database
+#### MySQL Database
 
 in MySQL:
 ```
