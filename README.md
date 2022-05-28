@@ -2,7 +2,7 @@
 
 This project is a simple package manager / pipeline designed to keep track of package changes across Development, QA and Prod networks. 
 
-Design writeup on this project [can be found here]()
+Design writeup on this project [can be found here](https://drive.google.com/file/d/1991pcHl1mj3k-vEqHJIoMChZXfco0spY/view?usp=sharing)
 
 
 ## Instructions
