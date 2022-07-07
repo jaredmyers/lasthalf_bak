@@ -6,6 +6,8 @@ This project is a simple package manager / pipeline designed to keep track of pa
 
 Design writeup on this project [can be found here](https://drive.google.com/file/d/1991pcHl1mj3k-vEqHJIoMChZXfco0spY/view?usp=sharing)
 
+![diagram](img/diagram.png)
+
 The base project v2 constructed using containers [can be found here.](https://github.com/jaredmyers/social_app)
 
 ## Some Installation Instructions
